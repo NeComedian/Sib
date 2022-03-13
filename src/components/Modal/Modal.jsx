@@ -9,7 +9,7 @@ import {selectResultSearchValue} from "../../redux/form-selector";
 import {selectEditingId, selectQueryById} from "../../redux/favourites-selector";
 
 export const Modal = (props) => {
-    const {visible, onClose, type} = props;
+    const {onClose, type} = props;
     const dispatch = useDispatch();
     const queryValue = useSelector(selectResultSearchValue);
     const id = useSelector(selectEditingId);
@@ -50,9 +50,6 @@ export const Modal = (props) => {
             onClose();
         }
     }
-
-
-if (!visible) return null
 return (
     <div className={s.modal} onClick={onClose}>
         <div className={s.modalDialog} onClick={e => e.stopPropagation()}>
@@ -65,7 +62,6 @@ return (
 
 const favouritesForm = (props) => {
     const {type,rangeInitial, handleSubmit, error, onClose} = props;
-    debugger
     return (
         <form onSubmit={handleSubmit}>
             <label htmlFor="query">Запрос</label>

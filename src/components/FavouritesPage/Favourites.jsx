@@ -26,7 +26,6 @@ const FavouritesPage = () => {
         dispatch(loadVideosThunk(q, maxResult));
         navigate('/search');
     }
-    debugger
     const queryElements = queries.map(query => {
         return (
             <FavouritesItem key={query.id} queryTitle={query.title}
@@ -38,11 +37,11 @@ const FavouritesPage = () => {
     return (
         <div className={`container ${s.favouritesContainer}`}>
             <h1>Избранное</h1>
-            <Modal
+            {isModal?<Modal
                 visible={isModal}
                 onClose={onClose}
-                type={'edit'}
-            />
+                type={'edit'}/>:null}
+
             <div className={s.favouritesItems}>
                 {queryElements}
             </div>
