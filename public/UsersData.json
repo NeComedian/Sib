@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "login": "user",
+      "password": "user",
+      "token": "user-user"
+    },
+    {
+      "login": "anotherUser",
+      "password": "anotherUser",
+      "token": "anotherUser-anotherUser"
+    }
+  ]
+}

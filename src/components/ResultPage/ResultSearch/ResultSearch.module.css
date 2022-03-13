@@ -1,0 +1,38 @@
+.resultSearchContainer{
+    padding-top: 40px;
+}
+
+.resultSearchContainer h1{
+    display: block;
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: normal;
+}
+
+.searchForm{
+    display: flex;
+    width: 100%;
+    padding-top: 12px;
+}
+
+.searchForm input{
+    background: #FFFFFF;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 13px;
+    padding-right: 0;
+    border: 1px solid rgba(23, 23, 25, 0.2);
+    box-sizing: border-box;
+    border-radius: 10px 0 0 10px;
+    width: 100%;
+    border-right: none;
+}
+.favButton{
+    border: 1px solid rgba(23, 23, 25, 0.2);
+    border-right: none;
+    border-left: none ;
+    background: #FFFFFF;
+    color: #1390E5;
+    width: 54px;
+    font-size: 24px;
+}

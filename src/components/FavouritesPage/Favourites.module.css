@@ -1,0 +1,14 @@
+.favouritesContainer{
+    padding-top: 50px;
+}
+
+.favouritesContainer h1{
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: normal;
+}
+
+.favouritesItems{
+    margin-top: 40px;
+}
+
