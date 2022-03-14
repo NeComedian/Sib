@@ -31,7 +31,7 @@ const ResultSearch = () => {
 const ResultSearchPanel = (props) => {
     return (
         <form className={s.searchForm} onSubmit={props.handleSubmit}>
-            <Field component={Input} placeholder={'Что хотите посмотреть?'} name={'resultSearch'} type={'search'}/>
+            <Field component={Input} placeholder={'Название видео'} name={'resultSearch'} type={'search'}/>
             <button className={s.favButton} type={"button"} onClick={props.toggleVisible}><i
                 className={"fa fa-regular fa-heart"}/></button>
             <button className={'mainButton'} type={"submit"}>Найти</button>

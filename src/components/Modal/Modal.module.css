@@ -108,3 +108,19 @@
         transform: translateY(0);
     }
 }
+
+@media screen and (max-width: 546px){
+    .modalDialog{
+        padding: 22px 10px;
+        margin: 0 8px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .modalDialog button{
+        width: 139px;
+        font-size: 18px;
+        border-radius: 10px;
+        margin-top: 36px;
+    }
+}

@@ -12,7 +12,7 @@
     display: flex;
     margin: 0 auto;
     padding-top: 40px;
-    width: min-content;
+    max-width: 686px;
 }
 
 .searchForm input{
@@ -23,7 +23,7 @@
     border: 1px solid rgba(23, 23, 25, 0.2);
     box-sizing: border-box;
     border-radius: 10px 0 0 10px;
-    width: 536px;
+    width: 100%;
 }
 
 .searchForm button{
@@ -40,4 +40,20 @@
 .searchForm input:focus{
     background: rgba(197, 228, 249, 0.3);
     border: 1px solid #1390E5;
+}
+
+@media screen and (max-width: 443px){
+    .mainSearchContainer{
+        padding-top: 40px;
+    }
+    .mainSearchContainer h1{
+        font-size: 28px;
+    }
+    .searchForm input{
+        font-size: 16px;
+    }
+    .searchForm button{
+        width: 92px;
+        font-size: 16px;
+    }
 }

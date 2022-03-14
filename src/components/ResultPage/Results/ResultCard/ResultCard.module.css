@@ -62,3 +62,8 @@
 }
 
 
+@media screen and (max-width: 350px){
+    .resultList .videoImage{
+        width: 120px;
+    }
+}

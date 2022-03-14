@@ -160,3 +160,18 @@ input[type=range].styled-slider.slider-progress::-ms-fill-lower {
     border-right-width: 0;
 }
 
+@media screen and (max-width: 1040px) {
+    .container{
+        padding: 0 40px;
+    }
+}
+
+@media screen and (max-width: 470px){
+    .container{
+        padding: 0 10px;
+    }
+    .mainButton{
+        width: 91px;
+        font-size: 16px;
+    }
+}

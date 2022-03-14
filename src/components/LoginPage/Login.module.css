@@ -42,7 +42,7 @@
 }
 
 .loginContainer form{
-    width: 334px;
+    max-width: 334px;
     margin: 0 auto;
     height: 100%;
 }
