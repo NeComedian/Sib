@@ -24,7 +24,7 @@ export const LoginPage = ( )=> {
     )
 }
 
-
+export default LoginPage;
 
 const LoginForm = (props) => {
     const {handleSubmit, error} = props;
